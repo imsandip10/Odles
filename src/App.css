@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sas {
+  background-image: url("./assest/Rectangle 11.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sas1 {
+  background-image: url("./assest/4683.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sas2 {
+  background-image: url("./assest/businessman-business-sketch.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 550px;
+  z-index: -1;
 }
-
-.App-link {
-  color: #61dafb;
+.sas3 {
+  background-image: url("./assest/cybercrime2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 550px;
+  z-index: -1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sas4 {
+  background-image: url("./assest/Real-Estate-Investment-Dropping.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 550px;
+  z-index: -1;
+}
+.viewall {
+  font-size: 24px;
+  color: blue;
+  border: 1px solid blue;
+  padding: 8px 64px;
+  border-radius: 8px;
+}
+.for1 {
+  background-image: url("./assest/Rectangle 13 11.59.34 PM.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.navbar {
+  /*border-radius: 30px;*/
+  border-radius: 15px;
+}
+a:hover {
+  border-bottom: 3px solid rgb(32, 80, 201);
+}
+.hov:hover {
+  transform: scale(1.25);
 }
